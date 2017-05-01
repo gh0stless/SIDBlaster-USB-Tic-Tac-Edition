@@ -4,4 +4,4 @@ ftdi_template/   Template for FT_PROG, used to program USB-chip
 pcb/             PCB design files
 pic16f886/       Source code (MPASM) and compiled HEX for PIC16F886
 win_hardsid_dll/ Source code (MinGW) and compiled windows hardsid driver (place in sidplay/goatracker folder)
-win_host/        Windows host application (must be running, hardsid driver uses this)
+win_host/        Windows host application (must be running, hardsid driver uses this) / obsolate by using the new hardsid.dll
