@@ -1,1 +1,0 @@
-regsvr32 d2xxlib.dll
