@@ -1,0 +1,50 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Oct 21 19:14:33 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x000004    program   0x0000a6
+    .config_2007_ASSID8.O       code   0x002007    program   0x000002
+    .config_2008_ASSID8.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000056      
+                            0x002007    0x002008      
+            86 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    __END   0x000057    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+                   __INIT   0x000005    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+                    __ISR   0x000004    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+                   __MAIN   0x000031    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+          __READ_REGISTER   0x00003c    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+         __WRITE_REGISTER   0x000048    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+         wait_for_address   0x000031    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+            wait_for_data   0x000049    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    __ISR   0x000004    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+                   __INIT   0x000005    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+                   __MAIN   0x000031    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+         wait_for_address   0x000031    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+          __READ_REGISTER   0x00003c    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+         __WRITE_REGISTER   0x000048    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+            wait_for_data   0x000049    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+                    __END   0x000057    program     static D:\Users\Andreas\Documents\Microchip\pic16f886\assid8.asm
+
+
