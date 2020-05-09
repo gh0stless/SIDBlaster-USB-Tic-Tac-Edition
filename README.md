@@ -1,4 +1,5 @@
 # SIDBlaster-USB Tic Tac Edition
+![](./docs/sidblaster.jpg)
 #### a USB C64 SID chip hardware player
 * ftdi_template/   template for FT_PROG, used to program USB-chip
 * pcb/             PCB design files
