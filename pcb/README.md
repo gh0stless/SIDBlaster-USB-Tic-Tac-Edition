@@ -1,5 +1,6 @@
 # eagle and gerber files
 
-![](./Sidblaster TicTac - Rev.1.2 circuit diagram.png)
+![](./Sidblaster_TicTac_-_Rev.1.2_circuit_diagram.png)
 
-![](./Sidblaster TicTac - Rev.1.2 assembly diagram.png)
+![](./Sidblaster_TicTac_-_Rev.1.2_assembly_diagram.png)
+
