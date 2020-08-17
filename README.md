@@ -7,7 +7,7 @@ The SIDBlaster TicTac comprises premium “open-source“ hardware for using a g
 
 ##### index
 * datasheet/       : datasheets
-* docs/            : dokumentation
+* docs/            : documentation
 * faq/             : some hints
 * ftdi_template/   : template for FT_PROG, used to program USB-chip
 * image/           : images
