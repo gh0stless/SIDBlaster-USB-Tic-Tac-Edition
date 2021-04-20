@@ -13,7 +13,7 @@ The SIDBlaster TicTac comprises premium “open-source“ hardware for using a g
 * image/           : images
 * pcb/             : PCB design files in eagle and gerber format
 * pic16f886/	   : source code (MPASM) and compiled HEX for PIC16F886
-* win_hardsid_dll/ : compiled windows hardsid driver (place in vice/acid64/sidplay/goatracker folder)
+* hardsid_library/ : compiled windows/mac/linux hardsid driver librarys
 
 See the [docs folder](./docs) or the [wiki](https://github.com/gh0stless/SIDBlaster-USB-Tic-Tac-Edition/wiki) for instructions.
 
