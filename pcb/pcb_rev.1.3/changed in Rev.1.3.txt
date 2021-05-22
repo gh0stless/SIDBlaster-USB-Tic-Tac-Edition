@@ -1,0 +1,3 @@
+-connected test pin
+-footprint transistor
+-footprint audio-caps
