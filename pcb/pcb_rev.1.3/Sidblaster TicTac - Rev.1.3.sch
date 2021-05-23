@@ -14724,7 +14724,7 @@ Based on the datasheets for the following products.&lt;br&gt;
 <text x="111.76" y="38.1" size="1.778" layer="91">12V: Rx = 19k
  9V: Rx = 14k</text>
 <text x="119.38" y="60.96" size="1.778" layer="91">+9V when closed</text>
-<text x="378.46" y="7.62" size="2.54" layer="91" font="vector">1.2</text>
+<text x="378.46" y="7.62" size="2.54" layer="91" font="vector">1.3</text>
 <text x="292.1" y="27.94" size="2.54" layer="91" font="vector">www.crazy-midi.de</text>
 </plain>
 <instances>
