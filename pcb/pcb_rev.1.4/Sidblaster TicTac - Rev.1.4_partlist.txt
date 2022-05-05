@@ -1,0 +1,71 @@
+Partlist
+
+Exported from Sidblaster TicTac - Rev.1.4.sch at 13.04.2022 14:50
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device            Package           Library               Sheet
+
+C1       10nF           C-EUC0805K        C0805K            rcl                   1
+C2       100nF          C-EUC0805K        C0805K            rcl                   1
+C3       100nF          C-EUC0805K        C0805K            rcl                   1
+C4       100nF          C-EUC0805K        C0805K            rcl                   1
+C5       100nF          C-EUC0805K        C0805K            rcl                   1
+C6       100nF          C-EUC0805K        C0805K            rcl                   1
+C7       100nF          C-EUC0805K        C0805K            rcl                   1
+C8       100nF          C-EU025-025X050   C025-025X050      rcl                   1
+C9       100nF          C-EU025-025X050   C025-025X050      rcl                   1
+C10      22µF           CPOL-EUE2-4       E2-4              rcl                   1
+C11      22µF           CPOL-EUE2-4       E2-4              rcl                   1
+C12      100nF          C-EUC0805K        C0805K            rcl                   1
+C13      4,7µF          CPOL-EUE2-4       E2-4              rcl                   1
+C18      1000pF         C-EU025-025X050   C025-025X050      rcl                   1
+C20      100nF          C-EUC0805K        C0805K            rcl                   1
+C21      100nF          C-EUC0805K        C0805K            rcl                   1
+C70      470pF          C-EU025-025X050   C025-025X050      rcl                   1
+C71      470pF          C-EU025-025X050   C025-025X050      rcl                   1
+C72      22nF           C-EU025-025X050   C025-025X050      rcl                   1
+C73      22nF           C-EU025-025X050   C025-025X050      rcl                   1
+C77      1µF/10µF       CPOL-EUE2.5-5     E2,5-5            rcl                   1
+C79      1 µF/10µF      CPOL-EUE2.5-5     E2,5-5            rcl                   1
+C80      1800pF         C-EU025-025X050   C025-025X050      rcl                   1
+C81      1800pF         C-EU025-025X050   C025-025X050      rcl                   1
+C82      2200pF         C-EU025-025X050   C025-025X050      rcl                   1
+C83      2200pF         C-EU025-025X050   C025-025X050      rcl                   1
+D1       ss26           SCHOTTKY-DIODESMD SMB               diode                 1
+D2       LED1           LEDCHIPLED_1206   CHIPLED_1206      led                   1
+D3       LED2           LEDCHIPLED_1206   CHIPLED_1206      led                   1
+F1       Ferrit         R-EU_0207/5V      0207/5V           rcl                   1
+J1       MONOSW2        MONOSW2           NEUTRIK-NRJ4HF    Audio Jacks 0.25 inch 1
+J2       MONOSW2        MONOSW2           NEUTRIK-NRJ4HF    Audio Jacks 0.25 inch 1
+JP1      Voltage Select JP1E              JP1               jumper                1
+JP2      CAP2           JP2E              JP2               jumper                1
+JP3      CAP1           JP2E              JP2               jumper                1
+JP4      POTX           JP2E              JP2               jumper                1
+JP5      POTY           JP2E              JP2               jumper                1
+JP6      Shield2GND     JP1E              JP1               jumper                1
+L2       4,7 - 22uH     1212_FPS          FPS               my_inductors          1
+Q1       IRLML6402TRPBF IRLML6402TRPBF    SOT23             IRLML6402             1
+R1       270R           R-EU_M0805        M0805             rcl                   1
+R2       270R           R-EU_M0805        M0805             rcl                   1
+R3       1k             R-EU_M0805        M0805             rcl                   1
+R4       1k             R-EU_M0805        M0805             rcl                   1
+R5       10k            R-EU_M0805        M0805             rcl                   1
+R8       1k             R-EU_0207/10      0207/10           rcl                   1
+R9       10k            R-EU_0207/10      0207/10           rcl                   1
+R12      1k             R-EU_0207/10      0207/10           rcl                   1
+R14      10k            R-EU_0207/10      0207/10           rcl                   1
+R20      1k             R-EU_M0805        M0805             rcl                   1
+R21      1k             R-EU_M0805        M0805             rcl                   1
+R22      47k            R-EU_M0805        M0805             rcl                   1
+R23      18k            R-EU_M0805        M0805             rcl                   1
+SV1      ISP            MA03-2            MA03-2            con-lstb              1
+SV2      Paddles        MA04-1            MA04-1            con-lstb              1
+T1       PN2222         PN2222            TO92              PN2222                1
+U1       PIC16F886-I/SP PIC16F886-I/SP    DIP254P762X508-28 PIC16F886-I_SP        1
+U2       FT232RL        FT232RL           SSOP28-LD         FT232RL               1
+U3       6581           6581              DIL28-6           Mos6581_sid           1
+U4       MT3608         MT3608            SOT23-6           kwr-master-2016-08    1
+X1       USB-B-H        USB-B-H           USB-B-H           con-usb-2             1
