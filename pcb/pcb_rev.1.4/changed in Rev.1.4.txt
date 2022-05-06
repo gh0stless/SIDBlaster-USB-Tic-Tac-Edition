@@ -1,1 +1,1 @@
-- Q1, R3, R4, R5, C12 added
+- Q1, R3, R4, R5, C12, C13 added
