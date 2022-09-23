@@ -1,0 +1,71 @@
+Partlist
+
+Exported from Sidblaster TicTac - Rev.1.5.brd at 23.09.2022 12:25
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package           Library               Position (mil)        Orientation
+
+C1       10nF           C0805K            rcl                   (555 1045)            R0
+C2       100nF          C0805K            rcl                   (1307.04724 1215)     R180
+C3       100nF          C0805K            rcl                   (1112.04724 730)      R0
+C4       100nF          C0805K            rcl                   (1147.04724 1215)     R180
+C5       100nF          C0805K            rcl                   (2545 1500)           R0
+C6       100nF          C0805K            rcl                   (1415 1370)           R180
+C7       100nF          C0805K            rcl                   (1697.40157 1506.5748) R180
+C8       100 nF         C025-025X050      rcl                   (1050 550)            R0
+C9       100 nF         C025-025X050      rcl                   (1950 425)            R270
+C10      22uF/10V       C1206             rcl                   (535 1285)            R0
+C11      22uF/24V       C1206             rcl                   (1150 1370)           R180
+C12      100nF          C0805K            rcl                   (795.27559 893.70079) R0
+C13      4.7uF          C1206             rcl                   (901.5748 1370.07874) R0
+C18      1000 pF        C025-025X050      rcl                   (1825 175)            R180
+C20      100nF          C0805K            rcl                   (492.5 1515)          R270
+C21      100nF          C0805K            rcl                   (1195 1535)           R270
+C70      470 pF         C025-025X050      rcl                   (1400 605)            R0
+C71      470 pF         C025-025X050      rcl                   (1785 605)            R0
+C72      22 nF          C025-025X050      rcl                   (1590 605)            R180
+C73      22 nF          C025-025X050      rcl                   (1980 605)            R180
+C77      1 µF/10 µF     E2,5-5            rcl                   (2100 175)            R0
+C79      1 µF/10 µF     E2,5-5            rcl                   (1050 175)            R180
+C80      1800 pF        C025-025X050      rcl                   (2125.94488 1619.84252) R0
+C81      1800 pF        C025-025X050      rcl                   (1745.94488 1619.84252) R0
+C82      2200 pF        C025-025X050      rcl                   (2315.94488 1619.84252) R180
+C83      2200 pF        C025-025X050      rcl                   (1935.94488 1619.84252) R180
+D1       SS26           SMB               diode                 (1070 1605)           R90
+D2       LED1           CHIPLED_1206      led                   (226 882)             R90
+D3       LED2           CHIPLED_1206      led                   (226.91339 788.54331) R90
+F1       Ferrit         SM-1206           inductor-neosid       (600 1150)            R0
+J1       MONOSW2        NEUTRIK-NRJ4HF    Audio Jacks 0.25 inch (3150 370.07874)      R90
+J2       MONOSW2        NEUTRIK-NRJ4HF    Audio Jacks 0.25 inch (0 470.07874)         R270
+JP1                     JP1               jumper                (175 1700)            R90
+JP2                     JP2               jumper                (1855 705)            R0
+JP3                     JP2               jumper                (1555 705)            R0
+JP4                     JP2               jumper                (2235 1505)           R0
+JP5                     JP2               jumper                (1935 1505)           R0
+JP6                     JP1               jumper                (371.25984 981.49606) R270
+L2       4.7-22uH       FPS               my_inductors          (855 1595)            R90
+Q1       IRLML6402TRPBF SOT23             IRLML6402             (755.90551 1035.43307) R180
+R1       270R           M0805             rcl                   (552 892.84252)       R0
+R2       1.8K           M0805             rcl                   (549.55906 777.62992) R180
+R3       1K             M0805             rcl                   (889.76378 1035.43307) R270
+R4       1K             M0805             rcl                   (838.58268 1173.22835) R180
+R5       10K            M0805             rcl                   (1455 975)            R270
+R8       1 k            0207/10           rcl                   (1450 175)            R0
+R9       10 k           0207/10           rcl                   (1600 300)            R180
+R12      1 k            0207/10           rcl                   (1600 475)            R180
+R14      10 k           0207/10           rcl                   (1150 387.5)          R180
+R20      1K/0.1%        M0805             rcl                   (615 1745)            R0
+R21      1K/0.1%        M0805             rcl                   (739.01575 1437.67717) R180
+R22      47K/0.1%       M0805             rcl                   (435 1742.5)          R180
+R23      18K/0.1%       M0805             rcl                   (435 1655)            R180
+SV1                     MA03-2            con-lstb              (1430.62992 1655)     R0
+SV2                     MA04-1            con-lstb              (2791.85039 1575.62992) R0
+T1       PN2222         TO92              PN2222                (2131.49606 417.12598) R90
+U1       PIC16F886-I/SP DIP254P762X508-28 PIC16F886-I_SP        (2855 1260)           R90
+U2       FT232RL        SSOP28-LD         FT232RL               (1167.04724 970)      R0
+U3       6581           DIL28-6           Mos6581_sid           (2210 1105)           R0
+U4       MT3608L        SOT23-6           kwr-master-2016-08    (625 1620)            R180
+X1       USB-B-H        USB-B-H           con-usb-2             (300 1307.48031)      R0
