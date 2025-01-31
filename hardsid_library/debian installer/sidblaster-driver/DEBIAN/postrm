@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+# Symbolischen Link und Bibliothek entfernen, falls sie existieren
+if [ -L /usr/local/lib/libftd2xx.so ]; then
+    rm -f /usr/local/lib/libftd2xx.so
+    echo "Symbolischer Link /usr/local/lib/libftd2xx.so wurde entfernt."
+fi
+
+# Udev-Regeln neu laden und Trigger auslösen
+udevadm control --reload-rules && udevadm trigger
+echo "Udev-Regeln wurden neu geladen und Trigger ausgeführt."

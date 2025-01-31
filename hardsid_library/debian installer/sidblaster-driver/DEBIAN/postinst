@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+# Symbolischen Link für libftd2xx erstellen
+if [ -f /usr/local/lib/libftd2xx.so.1.4.27 ]; then
+    ln -sf /usr/local/lib/libftd2xx.so.1.4.27 /usr/local/lib/libftd2xx.so
+    chmod 755 /usr/local/lib/libftd2xx.so
+    echo "Symbolischer Link für libftd2xx wurde erstellt und Berechtigungen gesetzt."
+else
+    echo "Fehler: Die Datei libftd2xx.so.1.4.27 wurde nicht gefunden." >&2
+    exit 1
+fi
+
+# Dynamischen Linker-Cache aktualisieren
+ldconfig
+
+# Udev-Regeln neu laden und Trigger auslösen
+udevadm control --reload-rules && udevadm trigger
+echo "Udev-Regeln wurden neu geladen und Trigger ausgeführt."

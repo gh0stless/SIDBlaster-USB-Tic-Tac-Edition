@@ -1,0 +1,10 @@
+Package: sidblaster-driver
+Version: 1.0
+Priority: optional
+Architecture: amd64
+Essential: no
+Maintainer: Andreas Schumm <info@crazy-midi.de>
+Homepage: https://crazy-midi.de
+Provides: libftd2xx, libhardsid
+Description: The hardsid library and ftdi driver for the SIDBlaster-USB Hardware.
+
