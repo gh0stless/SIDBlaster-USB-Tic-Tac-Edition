@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SIDBlaster Tool
+GenericName=SIDBlaster-Tool
+Comment=Tool for SIDBlaster-USB
+Exec=/usr/local/bin/SIDBlasterTool %u
+Icon=sidblaster-driver
+Terminal=true
+Type=Application
+Categories=AudioVideo;
+Version=1.6
