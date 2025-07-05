@@ -9,10 +9,11 @@ The SIDBlaster TicTac comprises premium “open-source“ hardware for using a g
 * datasheet/         : datasheets
 * docs/                   : documentation
 * ftdi_template/    : template for FT_PROG, used to program USB-chip
-* image/                 : images
+* images/                : images
 * pcb/                     : PCB design files in eagle and gerber format
 * pic16f886/	 : source code (MPASM) and compiled HEX for PIC16F886
 * hardsid_library/ : compiled windows/mac/linux hardsid driver librarys
+* exSIDBlster         : files and instructins to convert a SIDBlaster to an exSID
 
 See the [docs folder](./docs) or the [wiki](https://github.com/gh0stless/SIDBlaster-USB-Tic-Tac-Edition/wiki) for instructions.
 

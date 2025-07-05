@@ -1,0 +1,1 @@
+The only change to the original source is that the hardware revision "S" was entered.
