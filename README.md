@@ -90,7 +90,9 @@ useful live in their own actively maintained repos:
   tunes through real SIDBlaster-USB hardware via `hardsid`, on
   Windows and Unix (dlopen).
 - **SIDBlaster NG** - a from-scratch firmware + driver stack, built on the
-  exSID protocol, for a new hardware revision. RP2040-based SID-USB devices
+  exSID protocol, for a new hardware revision with its own studio-ready
+  hardware - e.g. 6.3mm (1/4") jack outputs instead of the Tic Tac's bare
+  SID pins. RP2040-based SID-USB devices
   (e.g. [USBSID-Pico](https://github.com/LouDnl/USBSID-Pico)) may well be
   where the present and future belong for a single device on a desk - but
   SIDBlaster's scalability is unique: several units side by side (see
