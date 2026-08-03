@@ -59,8 +59,8 @@ independent SID voices at once.
    emulation library. Get an installer or the latest plain binaries from
    [crazy-midi.de](https://crazy-midi.de) or the driver's own repo, see
    below.
-4. **Play something** - any HardSID-aware player (Sidplay2, ACID64, VICE, ...)
-   or a purpose-built app such as
+4. **Play something** - any HardSID-aware application (Sidplay2, ACID64,
+   VICE, ...) or a purpose-built app such as
    [SIDBlaster ASID Player](https://github.com/gh0stless/SIDBlaster-ASID-Player)
    (turns it into an ASID-protocol MIDI synth) or
    [AIASS](https://github.com/gh0stless/AIASS-Uno-VST) (VST/Standalone
@@ -78,7 +78,7 @@ useful live in their own actively maintained repos:
 
 - **[SIDBlasterUSB_HardSID-emulation-driver](https://github.com/gh0stless/SIDBlasterUSB_HardSID-emulation-driver)** -
   the `hardsid` driver (Windows/Linux/macOS), source + releases. This is
-  what any HardSID-compatible player talks to - except ACID64 and
+  what any HardSID-compatible application talks to - except ACID64 and
   JSIDPlay2, which bring their own onboard SIDBlaster-USB support.
 - **[SIDBlasterTool](https://github.com/gh0stless/SIDBlasterTool)** -
   small device config utility (read/set a device's serial number and SID
