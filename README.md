@@ -43,9 +43,6 @@ independent SID voices at once.
 | [`hardsid_library/`](./hardsid_library) | Plain prebuilt `hardsid` driver binaries (Win/Linux/macOS) - see below for the current source/releases |
 | [`images/`](./images) | Product photos |
 
-See the [Wiki](https://github.com/gh0stless/SIDBlaster-USB-Tic-Tac-Edition/wiki)
-for build logs, troubleshooting and community notes.
-
 - - -
 
 ## Getting started
