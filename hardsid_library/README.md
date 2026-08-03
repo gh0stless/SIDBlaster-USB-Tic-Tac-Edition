@@ -1,4 +1,4 @@
-Plain hardsid library binaries (no installer) for SIDBlaster-USB, currently v517 (0x0205).
+Plain hardsid library binaries (no installer) for SIDBlaster-USB, currently v518 (0x0206).
 
 For the latest version and an installer that handles system placement /
 the Linux udev rule / the macOS D2XX symlink for you, see the driver's
