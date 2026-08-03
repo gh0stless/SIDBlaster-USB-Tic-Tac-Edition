@@ -113,7 +113,9 @@ files, which are **CC BY 4.0** (see [`3d_printed_case/`](./3d_printed_case)).
 
 ## Credits
 
-Designed by Andreas Schumm (gh0stless), crazy-midi.de.
+Designed by Andreas Schumm (gh0stless), crazy-midi.de, building on the
+original SIDBlaster concept - whoever first came up with it, thank you,
+whoever you are; your name didn't reach me, but the idea did.
 
 Thanks to Stein Pedersen for the original `hardsid` driver, Wilfred Bos for
 his help with it and for SIDBlaster-USB support in ACID64Player, and Ken
