@@ -15,6 +15,8 @@ hardware sound, or use it as a real analog synth voice from a DAW.
 - A genuine SID chip (6581 or 8580/8582 - your choice, whatever you socket)
   driven by a Microchip PIC16F886 and an FTDI FT245R USB-to-parallel-FIFO
   bridge
+- A 6.3mm (1/4") jack audio output, studio-ready out of the box - unlike
+  most RP2040-based SID-USB alternatives
 - Open PCB design (Eagle + Gerber), currently at hardware revision **1.5**
 - Firmware (MPASM source + compiled HEX) for the PIC16F886
 - A 3D-printable case (by tyristori)
@@ -90,9 +92,7 @@ useful live in their own actively maintained repos:
   tunes through real SIDBlaster-USB hardware via `hardsid`, on
   Windows and Unix (dlopen).
 - **SIDBlaster NG** - a from-scratch firmware + driver stack, built on the
-  exSID protocol, for a new hardware revision with its own studio-ready
-  hardware - e.g. 6.3mm (1/4") jack outputs instead of the Tic Tac's bare
-  SID pins. RP2040-based SID-USB devices
+  exSID protocol, for a new hardware revision. RP2040-based SID-USB devices
   (e.g. [USBSID-Pico](https://github.com/LouDnl/USBSID-Pico)) may well be
   where the present and future belong for a single device on a desk - but
   SIDBlaster's scalability is unique: several units side by side (see
