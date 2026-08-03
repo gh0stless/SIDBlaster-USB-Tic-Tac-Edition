@@ -21,8 +21,11 @@ hardware sound, or use it as a real analog synth voice from a DAW.
 - Full German/English assembly instructions, user manual and bill of
   materials
 
-Up to **three** units can be run side by side (1SID/2SID/3SID) for stereo or
-triple-SID setups.
+The [driver](https://github.com/gh0stless/SIDBlasterUSB_HardSID-emulation-driver)
+supports up to **8** units side by side - handy for multi-SID setups
+(stereo/triple-SID playback) and for music-instrument applications like
+[AIASS](https://github.com/gh0stless/AIASS-Uno-VST) that want several
+independent SID voices at once.
 
 - - -
 
