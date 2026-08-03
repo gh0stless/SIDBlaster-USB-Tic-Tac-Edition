@@ -89,9 +89,15 @@ useful live in their own actively maintained repos:
   (e.g. [sidplayfp](https://github.com/gh0stless/sidplayfp)) can play SID
   tunes through real SIDBlaster-USB hardware via `hardsid`, on
   Windows and Unix (dlopen).
-- **SIDBlaster NG** - a from-scratch firmware + driver stack for a newer
-  hardware revision, built on the exSID protocol; actively developed,
-  eventually the successor to the driver above for new builds.
+- **SIDBlaster NG** - a from-scratch firmware + driver stack, built on the
+  exSID protocol, for a new hardware revision. RP2040-based SID-USB devices
+  (e.g. [USBSID-Pico](https://github.com/LouDnl/USBSID-Pico)) may well be
+  where the present and future belong for a single device on a desk - but
+  SIDBlaster's scalability is unique: several units side by side (see
+  [above](#whats-in-the-box)) is exactly what music applications like
+  [AIASS](https://github.com/gh0stless/AIASS-Uno-VST) want. NG is planned
+  around that: active multi-device handling, hotplug, and resource
+  management, not just more units bolted onto the same driver model.
 
 Prebuilt installers for all of the above (handles driver placement,
 Linux udev rule, macOS D2XX symlink, etc. for you): **[crazy-midi.de](https://crazy-midi.de)**.
