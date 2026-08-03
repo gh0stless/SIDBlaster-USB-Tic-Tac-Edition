@@ -84,6 +84,11 @@ useful live in their own actively maintained repos:
   standalone app that turns the device into an ASID-protocol MIDI synth.
 - **[AIASS-Uno-VST](https://github.com/gh0stless/AIASS-Uno-VST)** - VST/VST3/
   Standalone instrument plugin driving the SID chip directly from a DAW.
+- **[libsidplayfp](https://github.com/gh0stless/libsidplayfp)** (fork) -
+  adds a `sidblaster-builder` backend so any libsidplayfp-based player
+  (e.g. [sidplayfp](https://github.com/gh0stless/sidplayfp)) can play SID
+  tunes through real SIDBlaster-USB hardware via `hardsid`, on
+  Windows and Unix (dlopen).
 - **SIDBlaster NG** - a from-scratch firmware + driver stack for a newer
   hardware revision, built on the exSID protocol; actively developed,
   eventually the successor to the driver above for new builds.
