@@ -105,9 +105,12 @@ your own risk.
 
 ## License
 
-Hardware design, firmware and documentation in this repository are licensed
-under **GPL v3** (see [`LICENSE`](./LICENSE)), except the 3D-printed case
-files, which are **CC BY 4.0** (see [`3d_printed_case/`](./3d_printed_case)).
+Hardware design and documentation in this repository are licensed under
+**GPL v3** (see [`LICENSE`](./LICENSE)). The [`pic16f886/`](./pic16f886)
+firmware is **MIT**-licensed. The 3D-printed case files are **CC BY 4.0**
+(see [`3d_printed_case/`](./3d_printed_case)). The original exSID firmware
+referenced in [`exSIDBlaster/`](./exSIDBlaster) is licensed by the exSID
+project under **Creative Commons**, not by this repository.
 
 - - -
 
