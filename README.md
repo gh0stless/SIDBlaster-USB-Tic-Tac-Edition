@@ -78,7 +78,8 @@ useful live in their own actively maintained repos:
 
 - **[SIDBlasterUSB_HardSID-emulation-driver](https://github.com/gh0stless/SIDBlasterUSB_HardSID-emulation-driver)** -
   the `hardsid` driver (Windows/Linux/macOS), source + releases. This is
-  what any HardSID-compatible player talks to.
+  what any HardSID-compatible player talks to - except ACID64 and
+  JSIDPlay2, which bring their own onboard SIDBlaster-USB support.
 - **[SIDBlasterTool](https://github.com/gh0stless/SIDBlasterTool)** -
   small device config utility (read/set a device's serial number and SID
   chip type).
