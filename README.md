@@ -114,8 +114,13 @@ files, which are **CC BY 4.0** (see [`3d_printed_case/`](./3d_printed_case)).
 ## Credits
 
 Designed by Andreas Schumm (gh0stless), crazy-midi.de.
-exSID conversion notes courtesy of the exSID project (Thibaut Varène).
-3D-printed case by tyristori.
+
+Thanks to Stein Pedersen for the original `hardsid` driver, Wilfred Bos for
+his help with it and for SIDBlaster-USB support in ACID64Player, and Ken
+Händel for the Linux/macOS driver port. exSID conversion notes courtesy of
+the exSID project (Thibaut Varène). 3D-printed case by tyristori.
+
+And to my long-time fiancée, Borjana Konstantinowa, for her patience with me.
 
 Andreas Schumm (gh0stless)
 contact: info@crazy-midi.de
